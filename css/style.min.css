@@ -2,6 +2,18 @@
  * Roxy: Bootstrap template by GettTemplates.com
  * https://gettemplates.co/roxy
  */
+
+
+/* <!---=======================================================================-->
+   <!---=========================Colors==========Edits By Piper Williams=======-->
+          #4c17e0; #Deep Purple
+          #e0ff85; #Light Lime Green
+          #ff8adf; #Light Pink
+          #ff00cc; #Hot Pink
+          #badbff; #Light Purple
+<!---===========================================================================--> */
+
+
 html, body {
   width: 100%;
   overflow-x: hidden; }
@@ -26,7 +38,7 @@ h6,
   margin-top: 0; }
 
 a {
-  color: #ff00cc;
+  color: #4c17e0;
   transition: all .3s ease-in-out; }
 
 a:focus,
@@ -36,7 +48,8 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #333399; }
+  color: #badbff;
+}
 
 img {
   max-width: 100%; }
@@ -147,11 +160,14 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #ff00cc;
+    /* background: #ff00cc; */
+    background: #ff8adf;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    /* background: -webkit-linear-gradient(to right, #333399, #ff00cc); */
+    background: -webkit-linear-gradient(to right, #e0ff85, #ff00cc);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    /* background: linear-gradient(to right, #333399, #ff00cc); */
+    background: linear-gradient(to right, #e0ff85, #ff00cc);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
@@ -175,12 +191,16 @@ section {
 
 .btn-primary {
   display: inline-block;
+  /* background-color: #ff00cc;
+  border-color: #ff00cc; */
   background-color: #ff00cc;
-  border-color: #ff00cc;
+  border-color: #e0ff85;
   color: #fff; }
   .btn-primary:hover {
-    background-color: #333399;
-    border-color: #333399;
+    /* background-color: #333399;
+    border-color: #333399; */
+    background-color: #4c17e0;
+  border-color: #badbff;
     color: #fff; }
 
 .btn-outline-primary {
@@ -209,21 +229,28 @@ section {
 .rectangle-1 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  /* background: #8E2DE2; */
+  background: #e0ff85;
+  /* background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); */
+  /* background: linear-gradient(to right, #4A00E0, #8E2DE2); */
+  background: -webkit-linear-gradient(to right, #4c17e0, #badbff);
+  background: linear-gradient(to right, #4c17e0, #badbff);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
   z-index: 0;
-  transform: scale(1) rotate(-10deg); }
+  transform: scale(1) rotate(-10deg); 
+  
+}
 
 .rectangle-2 {
   width: 2000px;
   height: 400px;
   background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  /* background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); */
+  background: -webkit-linear-gradient(to right, #4c17e0, #e0ff85);
+  background: linear-gradient(to right, #ff00cc, #e0ff85);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
@@ -444,7 +471,8 @@ section {
     height: 100%;
     outline: none;
     border-radius: 50%;
-    background-color: rgba(255, 0, 204, 0.3);
+    /* background-color: rgba(255, 0, 204, 0.3); */
+    background-color: #ff00cc;
     text-indent: -999em;
     cursor: pointer;
     position: absolute;
